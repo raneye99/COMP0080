@@ -145,5 +145,8 @@ b = []
 for i in range(len(lst)):
     b.append(''.join(map(str, lst[i])))
 
+message = []
 for i in range(31):
-    print(chr(int(b[i],2)))
+    message.append(chr(int(b[i],2)))
+
+print(''.join(message))
